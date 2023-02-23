@@ -4,7 +4,7 @@
 
 	<groupId>de.medizininformatik-initiative</groupId>
 	<artifactId>dsf-pom</artifactId>
-	<version>0.10.0-SNAPSHOT</version>
+	<version>0.9.0-jakarta</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -577,23 +577,9 @@
 		</repository>
 	</distributionManagement>
 
-<!--	<repositories>-->
-<!--		<repository>-->
-<!--			<id>sonatype-snapshot</id>-->
-<!--			<name>oss.sonatype.org snapshots</name>-->
-<!--			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
-<!--			<snapshots>-->
-<!--				<enabled>true</enabled>-->
-<!--			</snapshots>-->
-<!--			<releases>-->
-<!--				<enabled>false</enabled>-->
-<!--			</releases>-->
-<!--		</repository>-->
-<!--	</repositories>-->
-
 	<repositories>
 		<repository>
-			<id>mii</id>
+			<id>github</id>
 			<name>GitHub Medizininformatik-Initiative Apache Maven Packages</name>
 			<url>https://maven.pkg.github.com/medizininformatik-initiative/*</url>
 			<releases>
